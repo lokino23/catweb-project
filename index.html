@@ -10,8 +10,8 @@
 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cat">
     </a>
     </section>
-<!--paragraf baru -->
-<section>
+<!--paragraf baru1 -->
+    <section>
 <h2>Daftar Kucing</h2>
 <h3>Yang kucing suka</h3>
 <ul>
@@ -28,19 +28,28 @@
     <li>Thunder</li>
     <li>Other <strong>other</strong> Cat</li>
 </ol>
-<figure>
+    <figure>
     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-</figure>
+    </figure>
+    </section>
 
-</section>
-<section>
+<!--paragraf baru2 -->
+    <section>
     <h2>Bentuk Kucing</h2>
     <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <button type="radio"> Indoor</button>
+        <fieldset>
+            <legend>Kucing indoor atau Outdoor</legend>
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input type="radio" id="outdoor"name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+        <fieldset>
+            <legend>Gimana Sifat Kucingmu?</legend>
+            <input type="checkbox" id="loving"> Manja
+        </fieldset>
         <input type="text" name="catphotourl" placeholder="cat photo url" required>
         <button type="submit">Submit</button>
     </form>
-</section>
+    </section>
 <!-- isi container -->
 </main>
 
