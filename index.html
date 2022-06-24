@@ -1,70 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>Aplikasi Photo Kucing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Photo Kucing Cantik </h1>
-<main>
-    <section>
-    <h2>Photo Kucing</h2>
-<!-- Cari photo kucing di internet-->
-<p>Klik disini untuk lebih banyak foto kucing </p>
-<a href="https://freecatphotoapp.com" target="_blank">
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cat">
-    </a>
-    </section>
-<!--paragraf baru1 -->
-    <section>
-<h2>Daftar Kucing</h2>
-<h3>Yang kucing suka</h3>
-<ul>
-    <li>Makanan Kucing</li>
-    <li>Cat's Nip</li>
-    <li>Pointer Laser</li>
-</ul>
-<figure><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="a slice of lasagna">
-<figcaption>Cats <em>Love </em>Lasagna</figcaption>
-</figure>
-<h3> Top 3 things cats <strong>hate</strong>:</h3>
-<ol>
-    <li>Flea Treaments</li>
-    <li>Thunder</li>
-    <li>Other <strong>other</strong> Cat</li>
-</ol>
-    <figure>
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-    </figure>
-    </section>
+    <header class="navbar sticky">
+        <a href="#" class="logo">RUZAQIR</a>
+        <nav>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#" class="menu-item first-item">HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="menu-item first-item expand-btn">HOBBY</a>
+                    <ul class="dropdown-menu sample">
+                        <li><a href="#" class="menu-item">Photography</a></li>
+                        <li><a href="#" class="menu-item">Excel</a></li>
+                        <li><a href="#" class="menu-item">Gaming</a></li>
 
-<!--paragraf baru2 -->
-    <section>
-    <h2>Bentuk Kucing</h2>
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <fieldset>
-            <legend>Kucing indoor atau Outdoor</legend>
-                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
-                <label><input type="radio" id="outdoor"name="indoor-outdoor" value="outdoor"> Outdoor</label>
-        </fieldset>
-        <fieldset>
-            <legend>Gimana Sifat Kucingmu?</legend>
-            <input type="checkbox"id="manja" value="manja"><label for="manja" name="sifat"> Manja</label>
-            <input type="checkbox"id="malas" value="malas"><label for="malas" name="sifat" >Malas</label>
-            <input type="checkbox"id="energic" value="energic" checked><label for="energic" name="sifat">Energic</label>
-        </fieldset>
-        <input type="text" name="catphotourl" placeholder="cat photo url" required>
-        <button type="submit">Submit</button>
-    </form>
-    </section>
-<!-- isi container -->
-</main>
+                    </ul>
+                </li>
 
 
+                <li>
+                    <a href="#" class="menu-item first-item expand-btn">Blog</a>
+                    <div class="sub-menu blog sample">
+                        <div class="content">
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=2" alt="Random Image" /></span></a>
+                                <div class="menu-title">Your Title</div>
+                                <p>
+                                    'I looked at a lot of menus, something is wrong everywhere. In this menu, in my opinion, I took into account all the shortcomings. Simple and clear code in pure JS. No Jquery, Bootstrap and other libraries are closed when you click outside the area and
+                                    press Esc.'
+                                </p>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=3" alt="Random Image" /></span></a>
+                                <div class="menu-title">Your Title</div>
+                                <p>
+                                    I looked at a lot of menus, something is wrong everywhere. In this menu, in my opinion, I took into account all the shortcomings. Simple and clear code in pure JS. No Jquery, Bootstrap and other libraries are closed when you click outside the area and
+                                    press Esc.
+                                </p>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=4" alt="Random Image" /></span></a>
+                                <div class="menu-title">Your Title</div>
+                                <p>
+                                    I looked at a lot of menus, something is wrong everywhere. In this menu, in my opinion, I took into account all the shortcomings. Simple and clear code in pure JS. No Jquery, Bootstrap and other libraries are closed when you click outside the area and
+                                    press Esc.
+                                </p>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=5" alt="Random Image" /></span></a>
+                                <div class="menu-title">Your Title</div>
+                                <p>
+                                    I looked at a lot of menus, something is wrong everywhere. In this menu, in my opinion, I took into account all the shortcomings. Simple and clear code in pure JS. No Jquery, Bootstrap and other libraries are closed when you click outside the area and
+                                    press Esc.
+                                </p>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Ubah Warna -->
+                <li>
+                    <label for="switch">
+                    <input type="checkbox" id="switch" class="switch">
+                    <label for="switch"></label>
+                    </label>
+                </li>
 
+                <li><a href="#" class="menu-item first-item">Kontak Saya</a></li>
+        </nav>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Multi-Level Mega Menu + Dropdown Menu</h1>
+            <br>
+            <p>
+                "Kesuksesan adalah sebuah perjalanan bukanlah sebuah hasil"
+            </p>
+            <br>
+            <p>;)</p>
+            <br>
+            <br>
+            <p>Without Jquery</p>
+            <br>
+            <br>
+            <p>Full responsibility</p>
+            <br>
+            <br>
+            <p>Closes when clicked outside the area</p>
+            <br>
+            <br>
+            <p>Closes when the Esc key is pressed</p>
+        </div>
+    </main>
+
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>Copyright &copy; 2020 RUZAQIR</p>
+    </footer>
+</body>
 
 </html>
-
-<footer>
-    <p><a href="https://www.freecodecamp.org">&copy; Copyright 2014</p></a>
-</footer>
-</body>
