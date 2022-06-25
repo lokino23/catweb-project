@@ -1,3 +1,13 @@
+:root {
+    --bg: linear-gradient(-90deg, #7e8592, #1b2029);
+    --bg-input: #4d4d50;
+}
+
+.light-mode {
+    --bg: linear-gradient(-90deg, #9c27b0, #673ab7);
+    --bg-input: #c9c9c9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -439,6 +449,8 @@ h1 {
 
 /* ini khusus menu theme */
 
+
+/*
 :root {
     --bg: linear-gradient(-90deg, #7e8592, #1b2029);
     --bg-input: #4d4d50;
@@ -448,6 +460,7 @@ h1 {
     --bg: linear-gradient(-90deg, #9c27b0, #673ab7);
     --bg-input: #c9c9c9;
 }
+*/
 
 
 /*
@@ -523,4 +536,17 @@ aside {
 
 .clear {
     clear: right;
+}
+
+footer {
+    flex: 1;
+    align-items: center;
+    background: white;
+    flex-direction: column;
+    line-height: 50px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
 }
