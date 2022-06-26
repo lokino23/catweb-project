@@ -22,6 +22,7 @@ body {
     font-size: 14px;
     background: var(--bg);
     color: var(--color-text);
+    margin: 0;
 }
 
 
@@ -283,7 +284,7 @@ body {
 /* container */
 
 .container {
-    margin: 100px auto auto;
+    margin-top: 100px auto auto;
     padding: 0 15px;
     max-width: fit-content;
     text-align: center;
@@ -463,18 +464,6 @@ h1 {
 }
 */
 
-
-/*
-body {
-    background: var(--bg);
-    color: var(--color-text);
-    font-weight: 500;
-    display: flex;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-}
-*/
-
 .switch {
     position: absolute;
     margin-left: -9999px;
@@ -545,4 +534,9 @@ footer {
 
 .center {
     text-align: center;
+}
+
+.rightSide {
+    width: 25%;
+    padding: 20px;
 }
