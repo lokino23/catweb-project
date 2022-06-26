@@ -287,6 +287,7 @@ body {
     padding: 0 15px;
     max-width: fit-content;
     text-align: center;
+    display: flex;
 }
 
 .container p {
@@ -527,11 +528,6 @@ body {
 
 .switch:checked+label:after {
     transform: translateX(30px);
-}
-
-aside {
-    float: right;
-    margin: 10px;
 }
 
 .clear {
