@@ -1,11 +1,15 @@
 :root {
     --bg: linear-gradient(-90deg, #7e8592, #1b2029);
-    --bg-input: #4d4d50;
+    --bg-input: #79797a;
+    --grey: #4A4A4A;
+    --text: #FBFEFF;
 }
 
 .light-mode {
     --bg: linear-gradient(-90deg, #9c27b0, #673ab7);
     --bg-input: #c9c9c9;
+    --grey: #9E9E9E;
+    --text: #FBFEFF;
 }
 
 * {
@@ -29,7 +33,7 @@ body {
 /* navbar */
 
 .navbar {
-    background: #ffffff;
+    background: var(--grey);
     height: 65px;
     display: flex;
     align-items: center;
@@ -49,7 +53,7 @@ body {
 
 .navbar .logo {
     text-decoration: none;
-    color: #122f48;
+    color: var(--text);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 20px;
@@ -106,9 +110,12 @@ body {
     transition: all 0.3s ease-out;
 }
 
+
+/*warna tulisan navbar */
+
 .navbar ul li a {
     text-decoration: none;
-    color: #112f48;
+    color: var(--text);
 }
 
 
@@ -526,6 +533,7 @@ h1 {
     padding-right: 10px;
     padding-left: 10px;
     margin-left: auto;
+    margin-top: 40px;
     margin-right: auto;
     background: darkgrey;
     border-radius: 25px;
@@ -536,13 +544,12 @@ h1 {
     padding: 20px;
     margin-top: 40px;
     order: 2;
-    background: #fff;
+    background: #09B7D0;
     border-radius: 25px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .isiRight {
-    color: #ff5722;
     font-size: 12px;
     font-weight: 500;
 }
@@ -567,6 +574,33 @@ footer {
 }
 
 .biodata {
-    height: 2vw;
+    height: 5px;
     color: Magenta;
+    margin-bottom: 2vw;
+}
+
+img.gambar {
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 2vw;
+}
+
+h3.nama {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    color: #FBFEFF;
+}
+
+p.resume {
+    color: #FBFEFF;
+    text-align: justify;
+    font-weight: 450;
+    margin-bottom: 1vw;
+    font-size: 14px;
+}
+
+.experience {
+    text-align: left;
 }
