@@ -310,8 +310,9 @@ body {
 
 h1 {
     font-weight: 700;
-    line-height: 10vw;
+    line-height: 5vw;
     color: var(--text);
+    margin-top: 15px;
     text-transform: uppercase;
 }
 
