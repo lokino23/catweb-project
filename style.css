@@ -644,6 +644,11 @@ p.workplace {
     color: var(--text);
 }
 
+b {
+    font-weight: 700;
+    color: var(--text);
+}
+
 
 /*
 @media screen and (max-width: 1024px) {
